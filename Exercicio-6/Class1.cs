@@ -17,7 +17,7 @@ namespace Exercicio_6
         public double converterParaF()
         {
 
-            tempF = (tempC / 1.8)  + 32;
+            tempF = (tempC * 1.8)  + 32;
 
             return tempF;
 

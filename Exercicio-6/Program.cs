@@ -10,7 +10,7 @@ namespace Exercicio_6
             converterCparaF converter = new converterCparaF();
 
 
-            Console.WriteLine("Insira a temperatura desejada em Fahrenheit:");
+            Console.WriteLine("Insira a temperatura desejada em Celsius:");
             converter.tempC = double.Parse(Console.ReadLine());
 
 
@@ -22,8 +22,8 @@ namespace Exercicio_6
             double resultado = converter.converterParaF();
 
 
-            Console.WriteLine(" A temperatura apresentada em Fahrenheit é de :" + converter.tempC + " °C");
-            Console.WriteLine("A temperatuda convertida para Celsius é de: " + resultado + " °F");
+            Console.WriteLine(" A temperatura apresentada em Celsius é de :" + converter.tempC + " °C");
+            Console.WriteLine("A temperatuda convertida para Fahrenheit é de: " + resultado + " °F");
 
             Console.ReadLine();
 
